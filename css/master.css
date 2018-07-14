@@ -1,0 +1,36 @@
+html body{
+  font-size: 1rem;
+  background-color: black;
+
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+#footer{
+  font-size:13;
+  text-align: center;
+  padding: 15%;
+  width: auto;
+  color: ghostwhite;
+}
+#botones{
+  padding-left:  10%;
+}
+#video{
+  padding-left: 25%;
+}
