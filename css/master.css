@@ -98,7 +98,7 @@ h3,h4{
 }
 nav  {
 
-    font-size:15px;
+    font-size:18px;
     width: auto;
 }
 #enlace{
@@ -137,4 +137,33 @@ nav  {
   height: 300px;
   float: right;
   padding-right:5% ;
+}
+.card{
+   background-color: transparent !important;
+border:0px !important;
+}
+
+.card-text{
+
+margin: 100px;
+text-align: center;
+  color:#002e5d;
+    font-size:25px;
+    font-weight: bold;
+}
+#tarjeta1{
+  border-right:8px solid black!important;
+}
+.card-text,.text-muted{
+  text-align: center;
+    color:#002e5d !important;
+      font-size:25px;
+      font-weight: bold;
+}
+.eventos{
+  font-weight: bold;
+font-family: 'Abril Fatface', cursive;
+    border:1px solid black ;
+    color:ghostwhite;
+    background-color: #3a0f39;
 }
