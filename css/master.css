@@ -43,6 +43,10 @@
 
 #cuerpo{
 
+font-size:23px;
+line-height: 1.4em;
+text-align: justify;
+font-family: 'Roboto', sans-serif;
 
   background: url(https://static.wixstatic.com/media/214ec6_3b86be8b75c276fe06abfb9c8f473244.png) no-repeat center center fixed;
   -webkit-background-size: cover;
