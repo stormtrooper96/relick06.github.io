@@ -76,3 +76,21 @@ font-family: 'Merriweather', serif;
   color:ghostwhite;
   background-color: black;
 }
+#autor{
+  font: 20px;
+}
+
+#whatsfondo{
+  background-color: #001a33;
+    color:ghostwhite;
+    font-size:22px;
+    line-height: 1.4em;
+    text-align: justify;
+    padding:3%;
+    margin-left: 5%;
+      margin-right: 5%;
+    font-family: 'Merriweather', serif;
+}
+h4{
+    text-align: center;
+}
