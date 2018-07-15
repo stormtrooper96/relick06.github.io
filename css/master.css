@@ -72,6 +72,8 @@ font-family: 'Merriweather', serif;
 }
 .pentagon
 {
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
   border:1px solid black ;
   color:ghostwhite;
   background-color: black;
@@ -93,4 +95,9 @@ font-family: 'Merriweather', serif;
 }
 h4{
     text-align: center;
+}
+nav  {
+
+    font-size:18px;
+    width: auto;
 }
