@@ -27,7 +27,7 @@
   }
 }
 .footer-bottom{
-  font-size:13;
+  font-size:15px;
   text-align: center;
   color: ghostwhite;
   background-color: black;
@@ -93,11 +93,23 @@ font-family: 'Oswald', sans-serif;
       margin-right: 5%;
     font-family: 'Merriweather', serif;
 }
-h4{
+h3,h4{
     text-align: center;
 }
 nav  {
 
-    font-size:18px;
+    font-size:15px;
     width: auto;
+}
+#enlace{
+  color:ghostwhite;
+  text-decoration: underline;
+
+}
+.hipno{
+    font-size:20px;
+    text-align: justify;
+    padding:3%;
+    margin-left: 5%;
+      margin-right: 5%;
 }
