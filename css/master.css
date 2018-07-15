@@ -113,3 +113,28 @@ nav  {
     margin-left: 5%;
       margin-right: 5%;
 }
+.contacto
+{
+
+  padding:1%;
+
+}
+.ticontacto{
+    text-align: center;
+    color: #002e5d;
+
+}
+#enlace2{
+  color:black;
+  font-size:24px;
+}
+
+.element2{
+   border-radius: 1%;
+   shape-outside: border-box;
+  -webkit-clip-path:circle (50%);
+  width: 600px;
+  height: 300px;
+  float: right;
+  padding-right:5% ;
+}
