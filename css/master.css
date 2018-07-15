@@ -43,7 +43,7 @@
 
 #cuerpo{
 
-font-size:23px;
+font-size:26px;
 line-height: 1.4em;
 text-align: justify;
 font-family: 'Roboto', sans-serif;
@@ -59,4 +59,14 @@ font-family: 'Roboto', sans-serif;
   margin-left: -1000px;
   margin-right:-1000px;
     background: black;
+}
+
+.element{
+   border-radius: 1%;
+   shape-outside: border-box;
+  -webkit-clip-path:circle (50%);
+  width: 400px;
+  height: 400px;
+  float: left;
+  padding-right:5% ;
 }
