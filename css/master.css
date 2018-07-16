@@ -163,7 +163,15 @@ text-align: center;
 .eventos{
   font-weight: bold;
 font-family: 'Abril Fatface', cursive;
-    border:1px solid black ;
     color:ghostwhite;
     background-color: #3a0f39;
+}
+h2{
+  font-weight: bold;
+  text-align: center;
+  color:black;
+
+}
+.accion{
+  width: auto;
 }
