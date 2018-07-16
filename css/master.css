@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
  #bodyhome{
   font-size: 1rem;
   background-color: black;
@@ -27,12 +30,13 @@
   }
 }
 .footer-bottom{
-  font-size:15px;
-  text-align: center;
-  color: ghostwhite;
-  background-color: black;
-  margin-left: -1000px;
-  margin-right:-1000px;
+  background: black;
+  margin: 0;
+   padding: 0;
+   width: auto;
+    display: block;
+    color:ghostwhite;
+    font-size: 15px;
 }
 #botones{
   padding-left:  10%;
@@ -56,10 +60,13 @@ font-family: 'Merriweather', serif;
 
 }
 .head{
-  margin-left: -1000px;
-  margin-right:-1000px;
+
     background: black;
-}
+    margin: 0;
+     padding: 0;
+     width: auto;
+      display: block;
+   }
 
 .element{
    border-radius: 1%;
@@ -79,7 +86,7 @@ font-family: 'Oswald', sans-serif;
   background-color: black;
 }
 #autor{
-  font: 20px;
+  font: 20    px;
 }
 
 #whatsfondo{
@@ -98,7 +105,7 @@ h3,h4{
 }
 nav  {
 
-    font-size:18px;
+    font-size:21px;
     width: auto;
 }
 #enlace{
