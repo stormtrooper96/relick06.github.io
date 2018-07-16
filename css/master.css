@@ -175,3 +175,21 @@ h2{
 .accion{
   width: auto;
 }
+.jumbotron{
+     background-color: transparent !important;
+}
+#servic1{
+    font-weight: bold;
+  text-align: left;
+  color:#3098c9;
+}
+#servic2{
+    font-weight: bold;
+  text-align: center;
+  color:black;
+}
+#enlaceatre{
+  color:#002e5d !important;
+  text-decoration: underline;
+
+}
