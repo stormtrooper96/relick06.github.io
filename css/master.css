@@ -1,3 +1,6 @@
+*{
+  font-family: 'Merriweather', serif; 
+}
 body {
   margin: 5px;
 }
@@ -50,7 +53,7 @@ body {
 font-size:26px;
 line-height: 1.4em;
 text-align: justify;
-font-family: 'Merriweather', serif;
+
 
   background: url(https://static.wixstatic.com/media/214ec6_3b86be8b75c276fe06abfb9c8f473244.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -81,7 +84,7 @@ font-family: 'Merriweather', serif;
 .pentagon
 {
 font-weight: bold;
-font-family: 'Oswald', sans-serif;
+
   border:1px solid black ;
   color:ghostwhite;
   background-color: black;
@@ -99,7 +102,6 @@ font-family: 'Oswald', sans-serif;
     padding:3%;
     margin-left: 5%;
       margin-right: 5%;
-    font-family: 'Merriweather', serif;
 }
 h3,h4{
     text-align: center;
@@ -170,7 +172,6 @@ text-align: center;
 }
 .eventos{
   font-weight: bold;
-font-family: 'Abril Fatface', cursive;
     color:ghostwhite;
     background-color: #3a0f39;
 }
