@@ -1,6 +1,6 @@
 
 *{
-  font-family: 'Merriweather', serif; 
+  font-family: 'Merriweather', serif;
 }
 body {
   margin: 5px;
@@ -92,11 +92,11 @@ text-align: justify;
    }
 
 .element{
-   border-radius: 1%;
+   border-radius: -4%;
    shape-outside: border-box;
   -webkit-clip-path:circle (50%);
-  width: 400px;
-  height: 400px;
+  width: 324px;
+  height: 377px;
   float: left;
   padding-right:5% ;
 }
@@ -229,7 +229,7 @@ h2{
 
 background-color: #003459 !important;
 }
-#imagen2 {        
+#imagen2 {
  display: flex !important;
   align-items: center !important;
   justify-content: center!important;
