@@ -95,8 +95,8 @@ text-align: justify;
    border-radius: -4%;
    shape-outside: border-box;
   -webkit-clip-path:circle (50%);
-  width: 324px;
-  height: 377px;
+  width: 375px;
+  height: 375px;
   float: left;
   padding-right:5% ;
 }
