@@ -1,3 +1,4 @@
+
 *{
   font-family: 'Merriweather', serif; 
 }
@@ -8,6 +9,24 @@ body {
   font-size: 1rem;
   background-color: black;
 
+}
+
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.ml-1 {
+  margin-left: ($spacer * .25) !important;
+}
+
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+}
+
+.p-3 {
+  padding: $spacer !important;
 }
 @media (min-width: 1200px) {
     .container{
@@ -209,4 +228,9 @@ h2{
 #botonest{
 
 background-color: #003459 !important;
+}
+#imagen2 {        
+ display: flex !important;
+  align-items: center !important;
+  justify-content: center!important;
 }
