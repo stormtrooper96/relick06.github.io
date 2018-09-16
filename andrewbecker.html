@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <title>Andrew Becker - Mindhacker</title>
   </head>
 
@@ -31,7 +31,7 @@
 </div>
   <div class="line-separator" style="padding: 1%;">  </div>
 <div class="container">
-<div class="container"> <img class="element" src="src\img\NewVersion.jpeg" />
+<div class="container"> <img class="element" src="src\img\NewVersion.jpeg" style="width: 370px; height: 533px; object-fit: cover;" />
 
 <div class= "pentagon"> Andrew Becker</div>
  </div>
@@ -72,8 +72,33 @@
   <br>
 <br>
 </p>
-<div id="imagen2"><a href="contact.html"> <img class="mx-auto"  src="https://static.wixstatic.com/media/dfb8c1_27d7e00bd12444fab51bbce3a85fd840~mv2_d_5184_3888_s_4_2.jpg/v1/fill/w_681,h_468,al_c,q_80,usm_0.66_1.00_0.01/dfb8c1_27d7e00bd12444fab51bbce3a85fd840~mv2_d_5184_3888_s_4_2.jpg" width="700" height="500"alt=""></a> </div>
-  </div>
+<div class="w3-content w3-section" style="width:548px ;height:728px" >
+  <img class="mySlides" src="src/img/estudio/2-BlackSkull.jpg" >
+  <img class="mySlides" src="src/img/estudio/5-Envelope.jpg">
+  <img class="mySlides hori" src="src/img/estudio/3-ESP.jpg">
+  <img class="mySlides hori" src="src/img/estudio/4-ESP2.jpg">
+  <img class="mySlides hori" src="src/img/estudio/8-Haunted.jpg">
+
+</div>
+
+<script>
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); // Change image every 2 seconds
+}
+</script>
 
   <br>
   <br>

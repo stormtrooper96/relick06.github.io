@@ -237,3 +237,8 @@ background-color: #003459 !important;
 #vinetas{
   text-align: left;
 }
+.mySlides {display:none;
+width:548px;
+height:728px;
+object-fit: cover;
+}
