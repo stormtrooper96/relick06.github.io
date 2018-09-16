@@ -31,8 +31,38 @@
   <div class="line-separator" style="padding: 1%;">  </div>
 <div class="container">
 <div class= "pentagon">  Andrew Becker - Hipnosis Clinica</div>
-<p>   </p>
+
+<br>
+
+
+  <div class="w3-content w3-section"  style="width:598px ;height:336px" >
+  <img class="mySlidesHipno" src="src/img/estudio/1-Pendulum.jpg">
+  <img class="mySlidesHipno" src="src/img/estudio/6-Pendulum-Final.jpg" >
+</div>
+
+<script>
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlidesHipno");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); // Change image every 2 seconds
+}
+</script>
+
+
 <div class="hipno">
+
+
   <p><strong>Andrew Becker</strong> está certificado en <strong>Hipnosis Clínica Reparadora, </strong>método con muy alto porcentaje de éxito en millones de casos documentados a través de Latinoamérica. </p>
   ​<p>Con su vasto entrenamiento y experiencia, puedes sentirte totalmente seguro(a) de estar en manos de un profesional y vas a contar con absoluta confidencialidad del caso que estemos tratando. </p>
   <p>Si presentas algunos de estos problemas o situaciones: </p>

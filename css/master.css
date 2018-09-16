@@ -242,3 +242,12 @@ width:548px;
 height:728px;
 object-fit: cover;
 }
+.mySlidesHipno {
+display:none;
+width:598px;
+height:336px;
+object-fit: cover;
+display: block;
+margin-left: 50%;
+margin-right: 50%;
+}
