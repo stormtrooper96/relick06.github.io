@@ -238,8 +238,8 @@ background-color: #003459 !important;
   text-align: left;
 }
 .mySlides {display:none;
-width:500px;
-height:600px;
+width:372px;
+height:494px;
 object-fit: cover;
 }
 .mySlidesHipno {
@@ -247,7 +247,5 @@ display:none;
 width:598px;
 height:336px;
 object-fit: cover;
-display: block;
-margin-left: 15%;
-margin-right: 15%;
+align-items: center !important;
 }
